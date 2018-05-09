@@ -31,8 +31,8 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
 	 *****************/
 	 
 	/*************
-	*  Update   *
-	*************/
+	 *  Update   *
+	 *************/
 }
 ```
 ```
@@ -55,12 +55,25 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
 	 *****************************/
 	
 	/****************************
-	* UPDATE LIDAR MEASUREMENT *
-	****************************/
+	 * UPDATE LIDAR MEASUREMENT *
+	 ****************************/
 }
 ```
 ```
-
+void UKF::UpdateRadar(MeasurementPackage meas_package) {
+	
+	/*************************************************
+	 * TRANSFORM SIGMA POINTS INTO MEASUREMENT SPACE *
+	 *************************************************/
+	 
+	/*****************************
+	 * PREDICT RADAR MEASUREMENT *
+	 *****************************/
+	 
+	/****************************
+     * UPDATE RADAR MEASUREMENT *
+     ****************************/ 
+}
 ```
 
 ## EKF Versus UKF Repositories
