@@ -21,10 +21,46 @@ The only file I need to modify ars `ukf.cpp` and `tools.cpp`.
 
 ```
 void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
-/********************
- *  Initialization
- ********************/
+	
+	/********************
+	 *  Initialization
+	 ********************/
+ 
+	/*****************
+	 *  Prediction   *
+	 *****************/
+	 
+	/*************
+	*  Update   *
+	*************/
 }
+```
+```
+void UKF::Prediction(double delta_t) {
+
+	/***************************************
+	 * PREDICT AUGMENTED MEAN STATE VECTOR *
+	 ***************************************/
+
+	/*********************************************
+	 * PREDICT STATE AND STATE COVARIANCE MATRIX *
+	 *********************************************/	 
+}
+```
+```
+void UKF::UpdateLidar(MeasurementPackage meas_package) {
+
+	/*****************************
+	 * PREDICT LIDAR MEASUREMENT *
+	 *****************************/
+	
+	/****************************
+	* UPDATE LIDAR MEASUREMENT *
+	****************************/
+}
+```
+```
+
 ```
 
 ## EKF Versus UKF Repositories

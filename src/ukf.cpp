@@ -166,9 +166,9 @@ void UKF::Prediction(double delta_t) {
     vector, x_. Predict sigma points, the state, and the state covariance matrix.
     */
 
-    /*
-     * PREDICT AUGMENTED MEAN STATE VECTOR
-     */
+    /***************************************
+     * PREDICT AUGMENTED MEAN STATE VECTOR *
+     ***************************************/
 
     // create augmented mean state vector
     VectorXd x_aug_ = VectorXd(n_aug_);
@@ -186,9 +186,9 @@ void UKF::Prediction(double delta_t) {
     P_aug_(5,5) = std_a_ * std_a_;
     P_aug_(6,6) = std_yawdd_ * std_yawdd_;
 
-    /*
-     * PREDICT STATE AND STATE COVARIANCE MATRIX
-     */
+    /*********************************************
+     * PREDICT STATE AND STATE COVARIANCE MATRIX *
+     *********************************************/
 
     // set weights
     double weight_0 = lambda_ / (lambda_+n_aug_);
@@ -292,7 +292,8 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
         while (x_diff(3) > M_PI) x_diff(3) -= 2.*M_PI;
         while (x_diff(3) <-M_PI) x_diff(3) += 2.*M_PI;
 
-        Tc = Tc + weights_(i) * x_diff * z_diff * z_diff.transpose();
+        // Tc bewteen sigma points in state space and measurement space
+        Tc = Tc + weights_(i) * x_diff * z_diff.transpose();
     }
 
     // Kalman gain K
@@ -310,6 +311,11 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
     // update state mean and covariance matrix
     x_ = x_ + K * z_diff;
     P_ = P_ - K * S * K.transpose();
+
+    // calculate NIS
+    MatrixXd epsilon;
+    epsilon = z_diff.transpose() * S.inverse() * z_diff;
+    cout << "\nNIS epsilon = " << epsilon << endl;
 }
 
 /**
@@ -407,7 +413,8 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
         while (x_diff(3) > M_PI) x_diff(3) -= 2.*M_PI;
         while (x_diff(3) <-M_PI) x_diff(3) += 2.*M_PI;
 
-        Tc = Tc + weights_(i) * x_diff * z_diff * z_diff.transpose();
+        // Tc bewteen sigma points in state space and measurement space
+        Tc = Tc + weights_(i) * x_diff * z_diff.transpose();
     }
 
     // Kalman gain K
@@ -425,4 +432,9 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
     // update state mean and covariance matrix
     x_ = x_ + K * z_diff;
     P_ = P_ - K * S * K.transpose();
+
+    // calculate NIS
+    MatrixXd epsilon;
+    epsilon = z_diff.transpose() * S.inverse() * z_diff;
+    cout << "\nNIS epsilon = " << epsilon << endl;
 }
