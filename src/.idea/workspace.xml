@@ -12,7 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="016ceef5-45e2-44a1-9f73-c40e7a26337e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/src/ukf.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/src/ukf.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/UnscentedKF" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/UnscentedKF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ukf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ukf.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
@@ -47,8 +49,8 @@
           <file leaf-file-name="ukf.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ukf.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6210">
-                  <caret line="414" selection-start-line="414" selection-end-line="414" />
+                <state relative-caret-position="-2177">
+                  <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#16#0" expanded="true" />
                   </folding>
@@ -143,12 +145,12 @@
       <workItem from="1525417927758" duration="8000" />
       <workItem from="1525418485023" duration="1316000" />
       <workItem from="1525693477224" duration="1913000" />
-      <workItem from="1525747193463" duration="15326000" />
+      <workItem from="1525747193463" duration="15573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18563000" />
+    <option name="totallyTimeSpent" value="18810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -161,6 +163,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="979" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1761658" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
@@ -267,8 +270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ukf.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6210">
-          <caret line="414" selection-start-line="414" selection-end-line="414" />
+        <state relative-caret-position="-2177">
+          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>

@@ -90,17 +90,14 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
             // recover state parameters
             float rho = meas_package.raw_measurements_(0);
             float phi = meas_package.raw_measurements_(1);
-            cout << "rho = " << rho <<"/nphi = " << phi << endl;
 
             // angle normalization
             while (phi > M_PI) phi-=2.*M_PI;
             while (phi <-M_PI) phi+=2.*M_PI;
-            cout << "normalized phi = " << phi << endl;
 
             // convert state from polar to cartesian coordinates
             float x = rho * cos(phi);
             float y = rho * sin(phi);
-            cout << "x = " << x << "/ny = " << y << endl;
 
             // Initialize state x_
             x_ << x, y, 0, 0, 0;
