@@ -17,6 +17,16 @@
 
 The only file I need to modify ars `ukf.cpp` and `tools.cpp`.
 
+## Function structure in `ukf.cpp`
+
+```
+void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
+/********************
+ *  Initialization
+ ********************/
+}
+```
+
 ## EKF Versus UKF Repositories
 The EKF and UKF repositories are similar, but have small differences.
 
