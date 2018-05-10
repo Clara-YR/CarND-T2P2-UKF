@@ -45,3 +45,9 @@ VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
     //return the root mean squared error
     return rmse;
 }
+
+void Tools::NormalizeAngle(double& phi) {
+    // angle normalization
+    while (phi > M_PI) phi-=2.*M_PI;
+    while (phi <-M_PI) phi+=2.*M_PI;;
+}
