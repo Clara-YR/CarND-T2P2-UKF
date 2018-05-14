@@ -50,13 +50,6 @@ void UKF::Prediction(double delta_t) {
 ```
 void UKF::UpdateLidar(MeasurementPackage meas_package) {
 
-	/*****************************
-	 * PREDICT LIDAR MEASUREMENT *
-	 *****************************/
-	
-	/****************************
-	 * UPDATE LIDAR MEASUREMENT *
-	 ****************************/
 }
 ```
 ```
