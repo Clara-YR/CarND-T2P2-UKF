@@ -12,82 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="016ceef5-45e2-44a1-9f73-c40e7a26337e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Augementation Assignment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Augementation Assignment.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GSP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GSP.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UKF_roadmap.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../UKF_roadmap.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/3.11.0/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/3.11.0/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/3.11.0/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/3.11.0/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/3.11.0/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/3.11.0/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/3.11.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/3.11.0/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/3.11.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/3.11.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/src/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/src/tools.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/src/tools.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/src/ukf.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/UnscentedKF.dir/src/ukf.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/src/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/src/tools.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/src/tools.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/UnscentedKF.dir/src/ukf.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/UnscentedKF.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/UnscentedKF.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ukf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ukf.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ukf.h" beforeDir="false" afterPath="$PROJECT_DIR$/ukf.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,8 +46,8 @@
           <file leaf-file-name="ukf.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ukf.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+                <state relative-caret-position="-205">
+                  <caret line="263" column="47" selection-start-line="263" selection-start-column="47" selection-end-line="263" selection-end-column="47" />
                   <folding>
                     <element signature="e#0#16#0" expanded="true" />
                   </folding>
@@ -230,12 +155,12 @@
       <workItem from="1525861698731" duration="8915000" />
       <workItem from="1525922139805" duration="20356000" />
       <workItem from="1526112459141" duration="2118000" />
-      <workItem from="1526259347306" duration="6592000" />
+      <workItem from="1526259347306" duration="6950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59617000" />
+    <option name="totallyTimeSpent" value="59975000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -711,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ukf.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="-205">
+          <caret line="263" column="47" selection-start-line="263" selection-start-column="47" selection-end-line="263" selection-end-column="47" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>

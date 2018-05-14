@@ -186,9 +186,9 @@ void UKF::Prediction(double delta_t) {
     vector, x_. Predict sigma points, the state, and the state covariance matrix.
     */
 
-    /**
-     *  Create Augmented Sigma Points
-     */
+    /**********************************
+     *  Create Augmented Sigma Points *
+     **********************************/
 
     // Create augmented mean state x_aug(k|k)
     VectorXd x_aug = VectorXd(7);
@@ -214,9 +214,9 @@ void UKF::Prediction(double delta_t) {
         Xsig_aug.col(i+1+n_aug_) = x_aug - sqrt(lambda_+n_aug_) * L.col(i);
     }
 
-    /**
-     *  Predict Sigma Points Xsig_pred_(k+1|k)
-     */
+    /*******************************************
+     *  Predict Sigma Points Xsig_pred_(k+1|k) *
+     *******************************************/
     for (int i=0; i<2*n_aug_+1; i++) {
         // extract values for better readability
         double p_x = Xsig_aug(0,i);
@@ -259,9 +259,9 @@ void UKF::Prediction(double delta_t) {
         Xsig_pred_(4,i) = yawd_p;
     }
 
-    /**
-     *  Predict the state x_ and the state covariance matrix P_
-     */
+    /******************************************
+     *  Predict the x_(k+1|k) and  P_(k+1|k)  *
+     ******************************************/
 
     // predict state mean x_(k+1|k)
     x_ = Xsig_pred_ * weights_;
