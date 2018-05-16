@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="016ceef5-45e2-44a1-9f73-c40e7a26337e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ukf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ukf.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
@@ -30,7 +31,7 @@
           <file leaf-file-name="ukf.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ukf.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="913">
+                <state relative-caret-position="15">
                   <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
                   <folding>
                     <element signature="e#29#61#0" expanded="true" />
@@ -42,12 +43,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="ukf.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ukf.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-205">
-                  <caret line="263" column="47" selection-start-line="263" selection-start-column="47" selection-end-line="263" selection-end-column="47" />
+                <state relative-caret-position="4425">
+                  <caret line="295" column="64" selection-start-line="295" selection-start-column="64" selection-end-line="295" selection-end-column="64" />
                   <folding>
                     <element signature="e#0#16#0" expanded="true" />
                   </folding>
@@ -82,7 +83,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="979" />
     <option name="height" value="900" />
   </component>
@@ -155,12 +156,13 @@
       <workItem from="1525861698731" duration="8915000" />
       <workItem from="1525922139805" duration="20356000" />
       <workItem from="1526112459141" duration="2118000" />
-      <workItem from="1526259347306" duration="6950000" />
+      <workItem from="1526259347306" duration="7074000" />
+      <workItem from="1526476168973" duration="203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59975000" />
+    <option name="totallyTimeSpent" value="60302000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -172,16 +174,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="846" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.17333333" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32917705" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32917705" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32917705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917705" />
@@ -193,6 +193,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,9 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="124" selection-start-line="124" selection-end-line="124" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -425,9 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -469,9 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding>
-            <element signature="e#34#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,9 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding>
-            <element signature="e#34#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2833">
           <caret line="189" selection-start-line="189" selection-end-line="189" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,7 +612,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ukf.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="913">
+        <state relative-caret-position="15">
           <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding>
             <element signature="e#29#61#0" expanded="true" />
@@ -636,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ukf.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="263" column="47" selection-start-line="263" selection-start-column="47" selection-end-line="263" selection-end-column="47" />
+        <state relative-caret-position="4425">
+          <caret line="295" column="64" selection-start-line="295" selection-start-column="64" selection-end-line="295" selection-end-column="64" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>

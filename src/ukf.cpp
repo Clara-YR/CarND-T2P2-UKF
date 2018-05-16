@@ -30,7 +30,7 @@ UKF::UKF() {
     std_a_ = 3.0;
 
     // Process noise standard deviation yaw acceleration in rad/s^2
-    std_yawdd_ = 0.1;
+    std_yawdd_ = M_PI / 4.0;
 
     //DO NOT MODIFY measurement noise values below these are provided by the sensor manufacturer.
     // Laser measurement noise standard deviation position1 in m
@@ -293,7 +293,7 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
     */
 
     VectorXd y = meas_package.raw_measurements_ - H_laser_ * x_;
-    MatrixXd S = H_laser_ * P_ * H_laser_.transpose();
+    MatrixXd S = H_laser_ * P_ * H_laser_.transpose() + R_laser_;
     MatrixXd K = P_ * H_laser_.transpose() * S.inverse();
 
     // update state and state covariance
@@ -342,7 +342,7 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
         // measurement modle
         Zsig(0,i) = sqrt(p_x*p_x + p_y*p_y);
         Zsig(1,i) = atan2(p_y, p_x);
-        Zsig(2,i) = (p_x*v1 + p_y*v2) / max(0.001, Zsig(0,1));
+        Zsig(2,i) = (p_x*v1 + p_y*v2) / max(0.001, Zsig(0,i));
 
     }
 
